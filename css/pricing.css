@@ -1,0 +1,48 @@
+.section-pricing {
+background-color:#F5F5F5;
+}
+
+.wrap-pricing {
+width: 340px;
+display: flex;
+justify-content: space-between;
+text-align: center;
+
+
+
+}
+
+.pricing-first {
+    width: 340px;
+    line-height: 50px;
+    margin-bottom: 2px;
+    background-color: #333333;
+    
+    
+
+}
+
+.pricing-second {
+        line-height: 100px;
+        margin-bottom: 2px;
+        background-color: #333333;
+    
+    
+}
+
+.pricing-third {
+    line-height: 50px;
+    margin-bottom: 2px;
+    background-color: #333333;
+}
+
+li {
+    margin-bottom: 4px;
+    line-height: 40px;
+    background-color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+l
+}
