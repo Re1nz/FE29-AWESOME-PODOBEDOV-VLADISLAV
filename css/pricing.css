@@ -3,40 +3,43 @@ background-color:#F5F5F5;
 }
 
 .wrap-pricing {
-width: 340px;
 display: flex;
 justify-content: space-between;
 text-align: center;
-
-
-
+flex-wrap: wrap;
 }
+
 
 .pricing-first {
+    line-height: 50px;
+    margin-bottom: 2px;
+    background-color: #333333;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color:  #FFFFFF; 
+}
+
+.pricing-basic {
+    margin: 0 15px;
     width: 340px;
-    line-height: 50px;
-    margin-bottom: 2px;
-    background-color: #333333;
+    }
     
-    
-
-}
-
 .pricing-second {
-        line-height: 100px;
-        margin-bottom: 2px;
-        background-color: #333333;
-    
-    
-}
-
-.pricing-third {
-    line-height: 50px;
+    line-height: 100px;
     margin-bottom: 2px;
     background-color: #333333;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    color:  #FFFFFF; 
+    
 }
 
-li {
+
+.space {
     margin-bottom: 4px;
     line-height: 40px;
     background-color: #FFFFFF;
@@ -44,5 +47,8 @@ li {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-l
+}
+
+.space::last-child {
+    margin-bottom: 0px;
 }

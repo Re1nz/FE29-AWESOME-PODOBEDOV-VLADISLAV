@@ -3,9 +3,11 @@
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  flex-wrap: wrap;
 }
 .card {
   width: 350px;
+  
 }
 .card-img {
     width: 70px;
@@ -34,17 +36,4 @@
     text-align: center;
     color: #000000;
 }
-li {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  color: #86878B;
-}
-.pricing-first {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  color: #FFFFFF;
-}
+

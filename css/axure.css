@@ -1,0 +1,62 @@
+.axure-section {
+max-width: 1400px;
+background-image: url("../img/background\ 1.png");
+margin: auto;
+position: relative;
+z-index: 2;
+
+}
+
+.mask-axure::before {
+width: 100%;
+height: 100%;
+z-index: 1;
+position: absolute;
+top:0;
+left:0;
+display: block;
+content:'';
+background-color: rgba(0, 0, 0, 0.55);
+}
+
+.wrap-axure {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    align-items: center;
+}
+.title-axure {
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.subtitle-axure {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.button-axure {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+    width: 135px;
+    height: 42px;
+    padding: 10px;
+    margin: auto;
+    padding: 0px;
+    
+    
+}

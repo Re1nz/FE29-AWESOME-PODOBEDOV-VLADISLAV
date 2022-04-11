@@ -1,0 +1,74 @@
+.customer-wrap {
+display: flex;
+justify-content: space-between;
+text-align: center;
+flex-wrap: wrap;
+}
+
+.customer-flex {
+    width: 300px;
+ 
+    
+}
+.customer-title {
+    background-color: #E2E2E2;
+    border-radius: 7px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+   
+
+}
+
+
+
+.triangle::after {
+    content: ''; 
+    position: absolute;
+    top: 165px;
+    left: 40px;
+    border: 20px solid transparent;
+    border-top: 20px solid #E2E2E2;
+   }
+
+
+.customer {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.customer-card {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.customer {
+    align-items: center;
+}
+.customer-name {
+    text-align: right;
+}
+.name {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+color: #333333;
+
+}
+
+.prof {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #86878B;
+
+    
+}
