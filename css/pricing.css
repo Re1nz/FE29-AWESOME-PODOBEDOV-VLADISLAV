@@ -7,8 +7,11 @@ display: flex;
 justify-content: space-between;
 text-align: center;
 flex-wrap: wrap;
+transition: .2s;
 }
-
+.wrap-pricing:hover {
+    box-shadow: 3px 3px grey, -1em 0 .4em black;
+}
 
 .pricing-first {
     line-height: 50px;
@@ -49,6 +52,6 @@ flex-wrap: wrap;
     font-size: 14px;
 }
 
-.space::last-child {
+.space:last-child {
     margin-bottom: 0px;
 }

@@ -1,34 +1,32 @@
-.customer-wrap {
-display: flex;
-justify-content: space-between;
-text-align: center;
-flex-wrap: wrap;
-}
 
-.customer-flex {
-    width: 300px;
- 
-    
+
+.customer-wrap {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
 }
 .customer-title {
     background-color: #E2E2E2;
+    color: #86878B;
+    position: relative;
+    width: 300px;
     border-radius: 7px;
+    padding: 0;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    text-align: center;
-    position: relative;
-   
-
 }
 
+.customer-card {
+   display: flex;
+   justify-content: space-evenly;
+}
 
-
-.triangle::after {
+.customer-title::after {
     content: ''; 
     position: absolute;
-    top: 165px;
+    top: 100%;
     left: 40px;
     border: 20px solid transparent;
     border-top: 20px solid #E2E2E2;
@@ -39,28 +37,25 @@ flex-wrap: wrap;
     width: 70px;
     height: 70px;
     border-radius: 50%;
-}
-
-.customer-card {
-    width: 80%;
     display: flex;
-    justify-content: space-between;
-    margin: auto;
+    justify-content: center;
+    padding: 0;
+
 }
 
-.customer {
-    align-items: center;
-}
 .customer-name {
-    text-align: right;
+   display: flex;
+   justify-content: space-evenly;
+   display: block;
+   padding: 0;
 }
+
 .name {
 font-family: 'Open Sans';
 font-style: normal;
 font-weight: 700;
 font-size: 20px;
 color: #333333;
-
 }
 
 .prof {
@@ -69,6 +64,6 @@ color: #333333;
     font-weight: 400;
     font-size: 14px;
     color: #86878B;
-
+    text-align: right;
     
 }

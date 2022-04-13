@@ -3,6 +3,8 @@
 @import url("../css/pricing.css");
 @import url("../css/customer.css");
 @import url("../css/axure.css");
+@import url("../css/footer.css");
+@import url("../css/header.css");
 * {
     margin:0px;
     box-sizing: border-box;
@@ -17,10 +19,10 @@ html {
   }
   .container {
     max-width: 1170px;
-    padding: 0 15px;
     margin: auto;
+    text-align: center;
   }
-  .wrap {
+  .wrap-title {
     text-align: center;
   }
   .title {
@@ -29,15 +31,7 @@ html {
     font-weight: 400;
     font-size: 36px;
   }
-  .line::after {
-      content: '';
-      display: block;
-      margin: auto;
-      height: 1px;
-      width: 64px;
-      border: 1px solid #E72424;
-      background-color: #E72424;
-      }
+  
 .subtitle {
     font-family: 'Open Sans';
     font-style: normal;
@@ -46,3 +40,12 @@ html {
     color: #86878B;
 
 }
+.subtitle::before {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 1px;
+  width: 64px;
+  border: 1px solid #E72424;
+  background-color: #E72424;
+  }
