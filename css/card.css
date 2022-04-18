@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
+  margin-top: 50px;
   flex-wrap: wrap;
 }
 .card {
@@ -11,7 +11,7 @@
 }
 
 .fa-lightbulb {
-  font-size: 50px;
+  font-size: 30px;
   color: orange;
   transition: .2s;
 }
@@ -24,7 +24,7 @@
 }
 
 .fa-keyboard {
-  font-size: 50px;
+  font-size: 30px;
   color: orange;
   transition: .2s;
 }
@@ -36,7 +36,7 @@
 }
 
 .fa-bolt {
-  font-size: 50px;
+  font-size: 30px;
   color: orange;
   transition: .2s;
 }
@@ -52,7 +52,7 @@
     height: 70px;
     border: 1px solid #E72424;
     border-radius: 50%;
-    margin: auto;
+    margin: 0 auto 30px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -69,6 +69,7 @@
     font-size: 20px;
     text-align: center;
     color: #333333; 
+    margin-bottom: 20px;
 }
 
 .card-text p {

@@ -5,15 +5,25 @@ background-color:#F5F5F5;
 .wrap-pricing {
 display: flex;
 justify-content: space-between;
-text-align: center;
 flex-wrap: wrap;
-transition: .2s;
+margin-top: 50px;
 }
-.wrap-pricing:hover {
-    box-shadow: 3px 3px grey, -1em 0 .4em black;
+.pricing-tariff:hover {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.pricing-first {
+.pricing-subtext:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.pricing-cost:hover {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.pricing-tariff {
     line-height: 50px;
     margin-bottom: 2px;
     background-color: #333333;
@@ -22,14 +32,18 @@ transition: .2s;
     font-weight: 700;
     font-size: 20px;
     color:  #FFFFFF; 
+    
 }
 
-.pricing-basic {
+.pricing-item {
     margin: 0 15px;
     width: 340px;
+    transition: .2s;
+    text-align: center;
+    padding: 0;
     }
     
-.pricing-second {
+.pricing-cost {
     line-height: 100px;
     margin-bottom: 2px;
     background-color: #333333;
@@ -42,7 +56,7 @@ transition: .2s;
 }
 
 
-.space {
+.pricing-subtext {
     margin-bottom: 4px;
     line-height: 40px;
     background-color: #FFFFFF;
@@ -50,8 +64,9 @@ transition: .2s;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
+    transition: .4s;
 }
 
-.space:last-child {
+.pricing-subtext-child {
     margin-bottom: 0px;
 }

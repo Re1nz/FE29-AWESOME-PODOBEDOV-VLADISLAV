@@ -2,11 +2,11 @@
 background-image: url("../img/background\ 1.png");
 background-repeat: no-repeat;
 background-position: center;
-max-width: 1170px;
+background-size: cover;
 margin: auto;
 text-align: center;
 position: relative;
-padding: 0;
+padding: 50px 0;
 margin-bottom: 0px;
 }
 
@@ -24,6 +24,7 @@ margin-bottom: 0px;
     font-size: 36px;
     text-align: center;
     color: #FFFFFF;
+    margin-bottom: 30px;
 }
 .title-axure::after {
   content: '';
@@ -33,6 +34,7 @@ margin-bottom: 0px;
   width: 64px;
   border: 1px solid #fff;
   background-color: #fff;
+  margin-top: 30px;
   
 }
 
@@ -44,6 +46,7 @@ margin-bottom: 0px;
     color: rgba(255, 255, 255, 0.8);
     position: relative;
     z-index: 1;
+    margin-bottom: 30px;
 }
 
 .section-axure::before {
@@ -62,6 +65,7 @@ margin-bottom: 0px;
 
 
 .button {
+    margin-top: 50px;
     font-family: 'Open Sans';
     font-weight: 600;
     font-size: 15px;
@@ -70,5 +74,13 @@ margin-bottom: 0px;
     border: 1px solid #FFFFFF;
     width: 135px;
     height: 42px;
+    transition: 0.4s;
+
 }
 
+.button:hover {
+    transform: scale(1.4);
+    border: 3px solid purple;
+    color: purple;
+    background-color: #fff;
+}

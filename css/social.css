@@ -1,0 +1,61 @@
+
+.section-social {
+background-color: #F8EFEF;
+padding: 8px 0;
+margin: auto;
+}
+
+
+.social-container {
+   display: flex; 
+   justify-content: space-between; 
+}
+
+
+
+
+
+.social-title {
+    width: 370px;
+    text-align: left;
+}
+
+.social-subtitle {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #333333;
+}
+
+
+.social-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #86878B;
+
+
+}
+.social-list {
+    color: #86878B;
+    display: flex; 
+    justify-content: space-around;
+    width: 680px;
+    align-items: center;
+   
+}
+
+.social-item a{
+    font-size: 35px;
+    color: #86878B;
+    transition: 0.25s;
+}
+
+.social-item a:hover {
+    transform: scale(1.4);
+    color: rgb(140, 80, 252);
+}
+
