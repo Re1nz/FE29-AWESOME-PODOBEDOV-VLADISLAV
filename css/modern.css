@@ -1,0 +1,129 @@
+.section-modern {
+
+    background-image: url("../img/modern-axure.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 2;
+
+}
+
+
+
+.section-modern::before {
+    content:"" ;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.55);
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+.wrap-modern  {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.modern-left{
+    width: 550px;
+    position: relative;
+    z-index: 2;
+    
+}
+.modern-logo{
+    margin-bottom: 30px;
+}
+
+
+.modern-logo a{
+    font-size: 50px;
+    color:#fff;
+   
+}
+
+.modern-logo::after{
+    content: 'IT';
+    color: coral;
+    font-size: 50px;
+    cursor: pointer;
+    
+}
+
+.modern-text {
+    color:#fff;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+  
+}
+.modern-text::after {
+  margin-top: 30px;
+  content: '';
+  display: block;
+  height: 1px;
+  width: 64px;
+  border: 1px solid #fff;
+  background-color: #fff;
+}
+
+.subtitle-modern {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 30px;
+    color: #fff;
+    width: 280px;
+
+}
+
+
+
+.title-form {
+    margin-bottom: 50px;
+}
+.form {
+    border-radius: 8px 8px 0px 0px;
+    padding: 20px 60px 60px;
+    background-color: #fff; 
+    width: 370px;
+
+
+}    
+
+.form-content-item {
+    margin-bottom: 20px;
+    color: #BDBDBD;
+}
+
+.modern-right{
+    position: relative;
+    z-index: 2;
+}
+.user-name {
+    padding: 10px 15px;
+    width: 30%;
+    outline-style: hidden;
+    border: 0;
+    border-bottom: 1px solid #000;
+}
+
+.modern-button {
+    display: block;
+    margin: auto;
+    background-color: #EC7979;
+    width: 100%;
+    padding: 10px;
+    border-radius: 0 0 8px 8px;
+    color: #fff;
+    border: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+}
